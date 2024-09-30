@@ -1,5 +1,7 @@
 # Installing wordpress with Kubernetes
 
+git clone 
+
 **Creating mysql credential**  
 kubectl create secret generic mysql-credentials \
 --from-literal=MYSQL_ROOT_PASSWORD=<mysql_root_password> \
@@ -24,6 +26,7 @@ kubectl apply -f wordpress-deployment.yaml
 kubectl expose deployment wordpress --type=NodePort --port=80  
 kubectl expose deployment mysql --type=NodePort --port=3306  
 kubectl get svc  
+
 **output**
 ![image](https://github.com/user-attachments/assets/cdd43a28-2c9c-40bc-af85-3368d6fd53f8)
 
