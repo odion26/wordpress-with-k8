@@ -1,5 +1,9 @@
 # Installing wordpress with Kubernetes
 
+Setup Kubernetes Cluster
+Install Kubernetes on your preferred platform (e.g., using Minikube for local development or a cloud provider like Google Kubernetes Engine, Amazon EKS, or Azure Kubernetes Service). Verify your Kubernetes cluster is running and accessible.
+
+**Clone the manifest repository**  
 git clone https://github.com/odion26/wordpress-with-k8.git
 
 **Creating mysql credential**  
