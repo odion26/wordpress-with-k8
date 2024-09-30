@@ -1,6 +1,6 @@
 # Installing wordpress with Kubernetes
 
-git clone 
+git clone https://github.com/odion26/wordpress-with-k8.git
 
 **Creating mysql credential**  
 kubectl create secret generic mysql-credentials \
